@@ -90,6 +90,19 @@ body {
     background-color: #0066ff;
 }
 
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: bold;
+}
+
 .section {
     max-width: 900px;
     margin: 80px auto;
@@ -111,11 +124,33 @@ body {
 }
 
 .card h3 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .card ul {
     padding-left: 20px;
+}
+
+.highlight-card {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.12);
+    border-left: 8px solid #0066ff;
+}
+
+.highlight-card h3 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.prize {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0066ff;
+    margin-bottom: 10px;
 }
 
 footer {
